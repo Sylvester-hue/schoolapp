@@ -23,8 +23,8 @@ const MyForm = () => {
   };
 
   return (
-    <div>
-    <button type="button" onClick={handleLogin}>Sign-in</button>
+    <div className='pre'>
+    <button id='btw' type="button" onClick={handleLogin}>Sign-in</button>
     <form onSubmit={handleSubmit}>
       <div className='div1'>
         <h1>Sign Up</h1>

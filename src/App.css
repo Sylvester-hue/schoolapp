@@ -100,3 +100,12 @@ button:hover {
 #bt{
   width: 200px;
 }
+#btw{
+  position:absolute;
+  top: 0px;
+  right: 10px;
+  cursor: pointer;
+}
+.pre{
+  position:relative;
+}
