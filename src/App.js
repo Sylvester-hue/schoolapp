@@ -6,9 +6,12 @@ import MyForm from './MyForm';
 import SuccessPage from './SuccessPage';
 import LoginPage from './LoginPage';
 import Home1 from './Home1';
+import home from './home';
+require('dotenv').config();
 function App() {
   return (
-     
+    <div>
+        <home/>
     <Router className = 'App-header'>
         <Routes>
             <Route path="/" element={<MyForm />} />
@@ -17,7 +20,7 @@ function App() {
             <Route path="/Home1" element={<Home1 />} />
         </Routes>
     </Router>
-    
+    </div>
 );
 }       
 
