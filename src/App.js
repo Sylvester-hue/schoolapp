@@ -7,7 +7,6 @@ import SuccessPage from './SuccessPage';
 import LoginPage from './LoginPage';
 import Home1 from './Home1';
 import home from './home';
-require('dotenv').config();
 function App() {
   return (
     <div>
